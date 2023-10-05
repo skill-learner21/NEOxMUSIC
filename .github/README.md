@@ -32,7 +32,7 @@
 ------
 ## 🎶 DanishXmusic ![Version](https://img.shields.io/github/v/release/skill-learner21/DanishXmusic21?color=black&logo=github&logoColor=black&style=social)
 
-🎶 DanishXmusic is a long awaited project from The-HellBot. This bot can stream songs on your telegram group voice chats.
+🎶 DanishXmusic is a long awaited project from skilllearner21. This bot can stream songs on your telegram group voice chats.
 
 This is a light weight source, as a result it gives faster and better performance.
 
@@ -82,7 +82,7 @@ This is a light weight source, as a result it gives faster and better performanc
     <img src="https://www.gnu.org/graphics/gplv3-or-later.png" alt="skillbot License">
 </p>
 
-Project[Danishxmusic](https://github.com/skill-learner21/DanishXmusic21) is free software: you can redistribute it and/or modify
+Project[@Danishxmusic](https://github.com/skill-learner21/DanishXmusic21) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -97,7 +97,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ## 🍀 Credits
 
 - 💖 All the Dependencies
-- 💖 [ProRaiden](https://github.com/ProRaiden)
 - 💖 [skillearner](https://github.com/skill-learner21)
 
 ------
