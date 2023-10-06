@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import add_sudo, remove_sudo
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.extraction import extract_user
-from AnonXMusic.utils.inline import close_markup
+from DanishXmusic21 import app
+from DanishXmusic21.misc import SUDOERS
+from DanishXmusic21.utils.database import add_sudo, remove_sudo
+from DanishXmusic21.utils.decorators.language import language
+from DanishXmusic21.utils.extraction import extract_user
+from DanishXmusic21.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
