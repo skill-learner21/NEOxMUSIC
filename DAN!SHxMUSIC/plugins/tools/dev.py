@@ -10,7 +10,7 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from AnonXMusic import app
+from DanishXmusic21 import app
 from config import OWNER_ID
 
 
