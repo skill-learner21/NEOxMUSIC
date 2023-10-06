@@ -16,7 +16,7 @@
 ------
 <h3 align="center">
 
-  [![✨Developer✨](https://img.shields.io/badge/✨Developer✨-white?&style=social&logo=telegram)](https://t.me/Mr_DaNiSh_kHaN21)
+  [![✨Developer✨](https://img.shields.io/badge/✨Developer✨-white?&style=social&logo=telegram)](@Mr_DaNiSh_kHaN21)
   
   ![GitHub forks](https://img.shields.io/github/forks/skill-learner21/DanishXmusic21?style=social)
   ![GitHub Repo stars](https://img.shields.io/github/stars/skill-learner21/DanishXmusic21?style=social)
