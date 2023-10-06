@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils import AdminRightsCheck
-from AnonXMusic.utils.database import is_active_chat, is_nonadmin_chat
-from AnonXMusic.utils.decorators.language import languageCB
-from AnonXMusic.utils.inline import close_markup, speed_markup
+from DanishXmusic21 import app
+from DanishXmusic21.core.call import Anony
+from DanishXmusic21.misc import SUDOERS, db
+from DanishXmusic21.utils import AdminRightsCheck
+from DanishXmusic21.utils.database import is_active_chat, is_nonadmin_chat
+from DanishXmusic21.utils.decorators.language import languageCB
+from DanishXmusic21.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
