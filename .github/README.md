@@ -21,11 +21,11 @@
   
   ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
   ![Python](https://img.shields.io/badge/Python-v3.11-white?style=social&logo=python)
-  
-  ![GitHub language count](https://img.shields.io/github/languages/count/skill-learner21/DanishXmusic21?&style=social&logo=hyper)
-  
+    
   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/ThE_cHaTTeR_BoXx21)
   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/ThE_RoYaL_sQuAd)
+
+  ![GitHub language count](https://img.shields.io/github/languages/count/skill-learner21/DanishXmusic21?&style=social&logo=hyper)
   
 </h3>
 
