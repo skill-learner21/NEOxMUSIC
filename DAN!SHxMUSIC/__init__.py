@@ -1,4 +1,4 @@
-from DanishXmusic21.core.bot import Anony
+from DanishXmusic21.core.bot import Neox
 from DanishXmusic21.core.dir import dirr
 from DanishXmusic21.core.git import git
 from DanishXmusic21.core.userbot import Userbot
