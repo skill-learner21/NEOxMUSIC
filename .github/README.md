@@ -56,7 +56,6 @@ This is a light weight source, as a result it gives faster and better performanc
 > Pull Requests regarding new feature or bug fixing are appriciated.
 
 ------
-## 🚀 Deploy To Heroku
 <h3 align="center">
     「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」
 </h3>
