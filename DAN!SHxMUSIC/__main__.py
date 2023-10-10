@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from DanishXmusic21 import LOGGER, app, userbot
-from DanishXmusic21.core.call import Anony
+from DanishXmusic21.core.call import Neox
 from DanishXmusic21.misc import sudo
 from DanishXmusic21.plugins import ALL_MODULES
 from DanishXmusic21.utils.database import get_banned_users, get_gbanned
@@ -35,7 +35,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("AnonXMusic.plugins" + all_module)
+        importlib.import_module("DanishXmusic21.plugins" + all_module)
     LOGGER("DanishXmusic21.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Neox.start()
@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DanishXmusic21").info("Stopping AnonX Music Bot...")
+    LOGGER("DanishXmusic21").info("Stopping DanishXmusic21 Bot...")
 
 
 if __name__ == "__main__":
