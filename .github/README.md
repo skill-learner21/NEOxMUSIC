@@ -57,8 +57,9 @@ This is a light weight source, as a result it gives faster and better performanc
 
 ------
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/skill-learner21/NEOxMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+------
 
-- listed [Here](#Variables).
+- Some Mandatory Variables Are Listed [Here](#Variables).
 - Fork & Star this repo.
 - Give star 
 ------
