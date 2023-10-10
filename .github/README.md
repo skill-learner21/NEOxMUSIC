@@ -74,7 +74,7 @@ This is a light weight source, as a result it gives faster and better performanc
 - `API_ID`  =  Get this value from my.telegram.org
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `DATABASE_URL`  =  A mongodb database url.
-- `HELLBOT_SESSION`  =  Paste a pyrogram session string
+- `STRING_SESSION`  =  Paste a pyrogram session string
 - `LOGGER_ID`  =  A telegram group id to log bot dump.
 - `OWNER_ID` = Your user id. You can add multiple user id by seperating each id with a space. Do not fill sudo users id here.
 
