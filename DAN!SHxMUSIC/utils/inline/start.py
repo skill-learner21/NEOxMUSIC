@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from DanishXmusic21 import app
+from NEOxMUSIC import app
 
 
 def start_panel(_):
