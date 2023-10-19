@@ -1,37 +1,51 @@
-from pyrogram.types import InlineKeyboardButton
+from typing import Union
+
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
-from NEOxMUSIC import app
 
 
-def start_panel(_):
+def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
-            ),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥺",
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            )
         ],
-    ]
+        [
+            InlineKeyboardButton(
+                text="ʜᴇʟᴩ",
+                callback_data="settings_back_helper",
+            ),
+            InlineKeyboardButton(
+                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+            ),
+        ],
+     ]
     return buttons
 
 
-def private_panel(_):
+def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"https://t.me/{app.username}?startgroup=true",
+                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥺",
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(
+                text="♢ ʜᴇʟᴩ ♢", callback_data="settings_back_helper"
+            )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
+            InlineKeyboardButton(
+                text="♡ sᴜᴩᴩᴏʀᴛ ♡", url=config.SUPPORT_GROUP
+            ),
+            InlineKeyboardButton(
+                text="✗ ᴍᴀɪɴᴛᴀɪɴᴇʀ ✗", user_id=OWNER
+            )
         ],
-    ]
+     ]
     return buttons
