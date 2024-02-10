@@ -7,28 +7,28 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("22600695"))
+API_HASH = getenv("23081df16fad795e9cf1ebeb6ffb94dd")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6798521059:AAGH-lMcYd_n3435eyP_qKyeaUQCGH8L5B0")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://rmpatel977:<password>@cluster0.dmmssgr.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001895326622))
 
 # Get this value from on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 6628968449))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("8067c028-3291-4150-8060-4d7471072ec5")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ThE_RoYaL_sQuAd")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ThE_cHaTTeR_BoXx21")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheBotCollections")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheBotCollectionsChat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -106,11 +106,11 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://t.me/TheBotCollections"
         )
 
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://t.me/TheBotCollectionsChat"
         )
