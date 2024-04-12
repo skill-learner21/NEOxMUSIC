@@ -1,5 +1,5 @@
-from DanishXmusic21.misc import SUDOERS
-from DanishXmusic21.utils.database import get_lang, is_maintenance
+from DAN!SHxMUSIC.misc import SUDOERS
+from DAN!SHxMUSIC.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
