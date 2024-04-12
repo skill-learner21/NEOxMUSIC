@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DanishXmusic21 import YouTube, app
-from DanishXmusic21.misc import SUDOERS
-from DanishXmusic21.utils.database import (
+from DAN!SHxMUSIC import YouTube, app
+from DAN!SHxMUSIC.misc import SUDOERS
+from DAN!SHxMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from DanishXmusic21.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from AnonXMusic.utils.inline import botplaylist_markup
+from DAN!SHxMUSIC.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
