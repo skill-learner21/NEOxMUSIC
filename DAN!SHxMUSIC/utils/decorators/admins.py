@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DanishXmusic21 import app
-from DanishXmusic21.misc import SUDOERS, db
-from DanishXmusic21.utils.database import (
+from DAN!SHxMUSIC import app
+from DAN!SHxMUSIC.misc import SUDOERS, db
+from DAN!SHxMUSIC.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
