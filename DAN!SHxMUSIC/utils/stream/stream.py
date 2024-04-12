@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from DanishXmusic21 import Carbon, YouTube, app
-from DanishXmusic21.core.call import Anony
+from DAN!SHxMUSIC import Carbon, YouTube, app
+from DAN!SHxMUSIC.core.call import Anony
 from DanishXmusic21.misc import db
-from DanishXmusic21.utils.database import add_active_video_chat, is_active_chat
-from DanishXmusic21.utils.exceptions import AssistantErr
-from DanishXmusic21.utils.inline import aq_markup, close_markup, stream_markup
-from DanishXmusic21.utils.pastebin import AnonyBin
-from DanishXmusic21.utils.stream.queue import put_queue, put_queue_index
-from DanishXmusic21.utils.thumbnails import get_thumb
+from DAN!SHxMUSIC.utils.database import add_active_video_chat, is_active_chat
+from DAN!SHxMUSIC.utils.exceptions import AssistantErr
+from DAN!SHxMUSIC.utils.inline import aq_markup, close_markup, stream_markup
+from DAN!SHxMUSIC.utils.pastebin import AnonyBin
+from DAN!SHxMUSIC.utils.stream.queue import put_queue, put_queue_index
+from DAN!SHxMUSIC.utils.thumbnails import get_thumb
 
 
 async def stream(
