@@ -1,8 +1,8 @@
-from DanishXmusic21.core.bot import Neox
-from DanishXmusic21.core.dir import dirr
-from DanishXmusic21.core.git import git
-from DanishXmusic21.core.userbot import Userbot
-from DanishXmusic21.misc import dbb, heroku
+from DAN!SHxMUSIC.core.bot import Neox
+from DAN!SHxMUSIC.core.dir import dirr
+from DAN!SHxMUSIC.core.git import git
+from DAN!SHxMUSIC.core.userbot import Userbot
+from DAN!SHxMUSIC.misc import dbb, heroku
 
 from .logging import LOGGER
 
