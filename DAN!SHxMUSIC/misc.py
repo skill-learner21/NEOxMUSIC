@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from DanishXmusic21.core.mongo import mongodb
+from DAN!SHxMUSIC import mongodb
 
 from .logging import LOGGER
 
