@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from DanishXmusic21.misc import db
-from DanishXmusic21.utils.formatters import check_duration, seconds_to_min
+from DAN!SHxMUSIC.misc import db
+from DAN!SHxMUSIC.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
