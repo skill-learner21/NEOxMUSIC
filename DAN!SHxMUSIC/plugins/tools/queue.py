@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from DanishXmusic21 import app
-from DanishXmusic21.misc import db
-from DanishXmusic21.utils import AnonyBin, get_channeplayCB, seconds_to_min
-from DanishXmusic21.utils.database import get_cmode, is_active_chat, is_music_playing
-from DanishXmusic21.utils.decorators.language import language, languageCB
-from DanishXmusic21.utils.inline import queue_back_markup, queue_markup
+from DAN!SHxMUSIC import app
+from DAN!SHxMUSIC.misc import db
+from DAN!SHxMUSIC.utils import AnonyBin, get_channeplayCB, seconds_to_min
+from DAN!SHxMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
+from DAN!SHxMUSIC.utils.decorators.language import language, languageCB
+from DAN!SHxMUSIC.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
