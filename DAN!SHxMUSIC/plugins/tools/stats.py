@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from DanishXmusic21 import app
-from DanishXmusic21.core.userbot import assistants
-from DanishXmusic21.misc import SUDOERS, mongodb
-from DanishXmusic21.plugins import ALL_MODULES
-from DanishXmusic21.utils.database import get_served_chats, get_served_users, get_sudoers
-from DanishXmusic21.utils.decorators.language import language, languageCB
-from DanishXmusic21.utils.inline.stats import back_stats_buttons, stats_buttons
+from DAN!SHxMUSIC import app
+from DAN!SHxMUSIC.core.userbot import assistants
+from DAN!SHxMUSIC.misc import SUDOERS, mongodb
+from DAN!SHxMUSIC.plugins import ALL_MODULES
+from DAN!SHxMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
+from DAN!SHxMUSIC.utils.decorators.language import language, languageCB
+from DAN!SHxMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
