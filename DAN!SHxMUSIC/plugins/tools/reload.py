@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from DanishXmusic21 import app
-from DanishXmusic21.core.call import Anony
-from DanishXmusic21.misc import db
-from DanishXmusic21.utils.database import get_assistant, get_authuser_names, get_cmode
+from DAN!SHxMUSIC import app
+from DAN!SHxMUSIC.core.call import Anony
+from DAN!SHxMUSIC.misc import db
+from DAN!SHxMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from DanishXmusic21.utils.decorators import ActualAdminCB, AdminActual, language
-from DanishXmusic21.utils.formatters import alpha_to_int, get_readable_time
+from DAN!SHxMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
